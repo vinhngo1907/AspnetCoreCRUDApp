@@ -1,3 +1,9 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using AspnetCoreCRUDApp.Models.Domain;
+using AspnetCoreCRUDApp.Repositories.Abstract;
+using AspnetCoreCRUDApp.Repositories.Implementation;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
